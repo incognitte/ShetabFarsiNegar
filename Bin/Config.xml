@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <FontMapOptionsList>
+    <FontMapOptions Name="unicodeview" Enabled="-1"/>
+    <FontMapOptions Name="maryam4" Enabled="-1"/>
+    <FontMapOptions Name="maryam3" Enabled="-1"/>
+    <FontMapOptions Name="nevise" Enabled="-1"/>
+    <FontMapOptions Name="parwin2005" Enabled="-1"/>
+    <FontMapOptions Name="parwin2003" Enabled="0"/>
+    <FontMapOptions Name="parwin2001" Enabled="0"/>
+    <FontMapOptions Name="parwin2000" Enabled="0"/>
+    <FontMapOptions Name="parwin98" Enabled="0"/>
+    <FontMapOptions Name="IPT" Enabled="0"/>
+  </FontMapOptionsList>
+</Config>

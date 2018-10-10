@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="15.3" version="15.3" Modules="simple" RootPath="." Language="en" Id="{7DDD9190-9A22-4815-B3B9-A6D218D191FB}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;DigCertStoreComponent;MsiAssemblyComponent;MsiClassComponent;MsiServInstComponent;MsiExtComponent;TilesComponent;MsiOrgComponent;MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiOdbcDataSrcComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;TilesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:2"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPNOMODIFY" Value="1"/>
+    <ROW Property="ARPPRODUCTICON" Value="FarsiNegar.exe" Type="8"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="LIMITUI" Value="1" MultiBuildValue="DefaultBuild:"/>
+    <ROW Property="Manufacturer" Value="Shetab"/>
+    <ROW Property="ProductCode" Value="1033:{40490092-9B7E-448D-B7EC-C52AF7C2D85D} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Shetab Farsi Negar 5"/>
+    <ROW Property="ProductVersion" Value="5.1.0" Type="32"/>
+    <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{BAB963B5-0A7B-4B73-BE4F-D3C36A306A54}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT" MultiBuildValue="DefaultBuild:Windows XP SP3 x86, Windows Server 2003 SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64" MultiBuildValue="DefaultBuild:Windows XP SP2 x64, Windows Server 2003 SP2 x64" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64Display" MultiBuildValue="DefaultBuild:Windows XP SP2 x64, Windows Server 2003 SP2 x64" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNTDisplay" MultiBuildValue="DefaultBuild:Windows XP SP3 x86, Windows Server 2003 SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="AdverPools_1_Dir" Directory_Parent="Bin_Release_Dir" DefaultDir="ADVERP~1|AdverPools"/>
+    <ROW Directory="Bin_Release_Dir" Directory_Parent="APPDIR" DefaultDir="BIN_RE~1|Bin_Release"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="EbookCreator_Files_1_Dir" Directory_Parent="Sponser_1_Dir" DefaultDir="EBOOKC~1|EbookCreator_Files"/>
+    <ROW Directory="Fontmaps_Dir" Directory_Parent="APPDIR" DefaultDir="Fontmaps"/>
+    <ROW Directory="Fonts_Dir" Directory_Parent="APPDIR" DefaultDir="Fonts"/>
+    <ROW Directory="Images_1_Dir" Directory_Parent="Shetab_1_Dir" DefaultDir="Images"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="Shetab_1_Dir" Directory_Parent="AdverPools_1_Dir" DefaultDir="Shetab"/>
+    <ROW Directory="Sponser_1_Dir" Directory_Parent="AdverPools_1_Dir" DefaultDir="Sponser"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Banner.html_1" ComponentId="{BC99A9EE-DB94-48D1-B309-E44794A4EF2B}" Directory_="Shetab_1_Dir" Attributes="0" KeyPath="Banner.html_1" Type="0"/>
+    <ROW Component="Config.xml" ComponentId="{8CA30C42-EC7B-4AD5-A715-C98376B6A97A}" Directory_="APPDIR" Attributes="0" KeyPath="Config.xml" Type="0"/>
+    <ROW Component="EbookCreator.html_1" ComponentId="{2C71184F-873A-4E8B-9829-3672023B9F51}" Directory_="Sponser_1_Dir" Attributes="0" KeyPath="EbookCreator.html_1" Type="0"/>
+    <ROW Component="F_NAZANI.TTF" ComponentId="{A960FA09-6B3D-470F-879F-39C507DDA18D}" Directory_="Fonts_Dir" Attributes="0" Type="0"/>
+    <ROW Component="FarsiNegar.exe_1" ComponentId="{674376AF-20B5-45FE-AE39-DD9721BE72C7}" Directory_="Bin_Release_Dir" Attributes="0" KeyPath="FarsiNegar.exe_1"/>
+    <ROW Component="IPT.fontmap" ComponentId="{DD74C05F-9717-4540-9673-AFAAA4EE5DA8}" Directory_="Fontmaps_Dir" Attributes="0" KeyPath="IPT.fontmap" Type="0"/>
+    <ROW Component="LeftBannerTile.jpg_1" ComponentId="{F239C4E4-8C71-4A33-A4E1-A78E42766984}" Directory_="EbookCreator_Files_1_Dir" Attributes="0" KeyPath="LeftBannerTile.jpg_1" Type="0"/>
+    <ROW Component="LeftTileTopBaner.jpg_1" ComponentId="{D3122967-05E1-4D25-B6CC-316E20E7918E}" Directory_="Images_1_Dir" Attributes="0" KeyPath="LeftTileTopBaner.jpg_1" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{0D5556F3-11D1-494F-82ED-E0758C62F651}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{86534F3D-AF68-4536-AE82-E7312E2E62BF}" Directory_="SHORTCUTDIR" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Banner.html_1 Config.xml EbookCreator.html_1 F_NAZANI.TTF FarsiNegar.exe_1 IPT.fontmap LeftBannerTile.jpg_1 LeftTileTopBaner.jpg_1 ProductInformation SHORTCUTDIR"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Banner.html_1" Component_="Banner.html_1" FileName="BANNER~1.HTM|Banner.html" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Banner.html" SelfReg="false" NextFile="LeftTileTopBaner.jpg_1"/>
+    <ROW File="Config.xml" Component_="Config.xml" FileName="Config.xml" Attributes="0" SourcePath="..\Bin\Config.xml" SelfReg="false" NextFile="IPT.fontmap"/>
+    <ROW File="EbookCreator.html_1" Component_="EbookCreator.html_1" FileName="EBOOKC~1.HTM|EbookCreator.html" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator.html" SelfReg="false" NextFile="LeftBannerTile.jpg_1"/>
+    <ROW File="F_NAZANI.TTF" Component_="F_NAZANI.TTF" FileName="F_NAZANI.TTF" Attributes="0" SourcePath="..\Bin\Fonts\F_NAZANI.TTF" SelfReg="false" NextFile="F_ZAR.TTF"/>
+    <ROW File="F_ZAR.TTF" Component_="F_NAZANI.TTF" FileName="F_ZAR.TTF" Attributes="0" SourcePath="..\Bin\Fonts\F_ZAR.TTF" SelfReg="false" NextFile="HMSNazanin.ttf"/>
+    <ROW File="FarsiNegar.exe_1" Component_="FarsiNegar.exe_1" FileName="FARSIN~1.EXE|FarsiNegar.exe" Attributes="0" SourcePath="..\Bin\Bin_Release\FarsiNegar.exe" SelfReg="false" NextFile="Config.xml" DigSign="true"/>
+    <ROW File="FontMapSorter.xslt" Component_="Config.xml" FileName="FONTMA~1.XSL|FontMapSorter.xslt" Attributes="0" SourcePath="..\Bin\FontMapSorter.xslt" SelfReg="false" NextFile="F_NAZANI.TTF"/>
+    <ROW File="HMSNazanin.ttf" Component_="F_NAZANI.TTF" FileName="HMSNAZ~1.TTF|HMSNazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\HMSNazanin.ttf" SelfReg="false" NextFile="INazanin.ttf"/>
+    <ROW File="INazanin.ttf" Component_="F_NAZANI.TTF" FileName="INazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\INazanin.ttf" SelfReg="false" NextFile="Nnazanb.ttf"/>
+    <ROW File="IPT.fontmap" Component_="IPT.fontmap" FileName="IPT~1.FON|IPT.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\IPT.fontmap" SelfReg="false" NextFile="maryam3.fontmap"/>
+    <ROW File="LeftBannerTile.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBA~1.JPG|LeftBannerTile.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile.jpg" SelfReg="false" NextFile="LeftBannerTile2.jpg_1"/>
+    <ROW File="LeftBannerTile2.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBA~2.JPG|LeftBannerTile2.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile2.jpg" SelfReg="false" NextFile="LeftBottomBanner.jpg_1"/>
+    <ROW File="LeftBottomBanner.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBO~1.JPG|LeftBottomBanner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBottomBanner.jpg" SelfReg="false" NextFile="LeftTopBanner.jpg_1"/>
+    <ROW File="LeftTileTopBaner.jpg_1" Component_="LeftTileTopBaner.jpg_1" FileName="LEFTTI~1.JPG|LeftTileTopBaner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Images\LeftTileTopBaner.jpg" SelfReg="false" NextFile="TopBaner.jpg_1"/>
+    <ROW File="LeftTopBanner.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTTO~1.JPG|LeftTopBanner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftTopBanner.jpg" SelfReg="false" NextFile="FarsiNegar.exe_1"/>
+    <ROW File="N04n.ttf" Component_="F_NAZANI.TTF" FileName="N04n.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N04n.ttf" SelfReg="false" NextFile="NPINazanin.ttf"/>
+    <ROW File="NPINazanin.ttf" Component_="F_NAZANI.TTF" FileName="NPINAZ~1.TTF|NPINazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\NPINazanin.ttf" SelfReg="false" NextFile="Npwlnazn.ttf"/>
+    <ROW File="Nnazanb.ttf" Component_="F_NAZANI.TTF" FileName="N-nazanb.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N-nazanb.ttf" SelfReg="false" NextFile="Nziba.ttf"/>
+    <ROW File="Npwlnazn.ttf" Component_="F_NAZANI.TTF" FileName="Npwlnazn.ttf" Attributes="0" SourcePath="..\Bin\Fonts\Npwlnazn.ttf" SelfReg="false" NextFile="PWLZIBA_.TTF"/>
+    <ROW File="Nziba.ttf" Component_="F_NAZANI.TTF" FileName="N-ziba.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N-ziba.ttf" SelfReg="false" NextFile="N04n.ttf"/>
+    <ROW File="PWLZIBA_.TTF" Component_="F_NAZANI.TTF" FileName="PWLZIBA_.TTF" Attributes="0" SourcePath="..\Bin\Fonts\PWLZIBA_.TTF" SelfReg="false" NextFile="UnicodeGlyphs.xml"/>
+    <ROW File="TopBaner.jpg_1" Component_="LeftTileTopBaner.jpg_1" FileName="TopBaner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Images\TopBaner.jpg" SelfReg="false" NextFile="EbookCreator.html_1"/>
+    <ROW File="UnicodeGlyphs.xml" Component_="Config.xml" FileName="UNICOD~1.XML|UnicodeGlyphs.xml" Attributes="0" SourcePath="..\Bin\UnicodeGlyphs.xml" SelfReg="false" NextFile="UnicodeGlyphsSorter.xslt"/>
+    <ROW File="UnicodeGlyphsSorter.xslt" Component_="Config.xml" FileName="UNICOD~1.XSL|UnicodeGlyphsSorter.xslt" Attributes="0" SourcePath="..\Bin\UnicodeGlyphsSorter.xslt" SelfReg="false"/>
+    <ROW File="maryam3.fontmap" Component_="IPT.fontmap" FileName="MARYAM~1.FON|maryam3.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\maryam3.fontmap" SelfReg="false" NextFile="maryam4.fontmap"/>
+    <ROW File="maryam4.fontmap" Component_="IPT.fontmap" FileName="MARYAM~2.FON|maryam4.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\maryam4.fontmap" SelfReg="false" NextFile="nevise.fontmap"/>
+    <ROW File="nevise.fontmap" Component_="IPT.fontmap" FileName="NEVISE~1.FON|nevise.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\nevise.fontmap" SelfReg="false" NextFile="parwin2000.fontmap"/>
+    <ROW File="parwin2000.fontmap" Component_="IPT.fontmap" FileName="PARWIN~1.FON|parwin2000.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\parwin2000.fontmap" SelfReg="false" NextFile="parwin2001.fontmap"/>
+    <ROW File="parwin2001.fontmap" Component_="IPT.fontmap" FileName="PARWIN~2.FON|parwin2001.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\parwin2001.fontmap" SelfReg="false" NextFile="parwin2003.fontmap"/>
+    <ROW File="parwin2003.fontmap" Component_="IPT.fontmap" FileName="PARWIN~3.FON|parwin2003.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\parwin2003.fontmap" SelfReg="false" NextFile="parwin2005.fontmap"/>
+    <ROW File="parwin2005.fontmap" Component_="IPT.fontmap" FileName="PARWIN~4.FON|parwin2005.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\parwin2005.fontmap" SelfReg="false" NextFile="parwin98.fontmap"/>
+    <ROW File="parwin98.fontmap" Component_="IPT.fontmap" FileName="PARWIN~5.FON|parwin98.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\parwin98.fontmap" SelfReg="false" NextFile="unicodeview.fontmap"/>
+    <ROW File="unicodeview.fontmap" Component_="IPT.fontmap" FileName="UNICOD~1.FON|unicodeview.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\unicodeview.fontmap" SelfReg="false" NextFile="FontMapSorter.xslt"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Output" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="[#FarsiNegar.exe_1]"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Type="1" Source="aicustact.dll" Target="MixedAllUsersInstallLocation"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AI_UserProgramFiles][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="FarsiNegar.exe" SourcePath="..\Bin\Bin_Release\FarsiNegar.exe" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="55"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="54"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Sequence="748"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Sequence="748"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="( Version9X OR ( NOT VersionNT64 ) OR ( VersionNT64 AND ((VersionNT64 &lt;&gt; 502) OR (ServicePackLevel &lt;&gt; 2) OR (MsiNTProductType &lt;&gt; 1)) AND ((VersionNT64 &lt;&gt; 502) OR (ServicePackLevel &lt;&gt; 2) OR (MsiNTProductType = 1)) ) )" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]." DescriptionLocId="AI.LaunchCondition.NoSpecificNT64" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="( Version9X OR VersionNT64 OR ( VersionNT AND ((VersionNT &lt;&gt; 501) OR (ServicePackLevel &lt;&gt; 3)) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel &lt;&gt; 2)) ) )" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]." DescriptionLocId="AI.LaunchCondition.NoSpecificNT" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="FarsiNegar.exe_2" Directory_="SHORTCUTDIR" Name="SHETAB~1|Shetab Farsi Negar 5" Component_="FarsiNegar.exe_1" Target="[#FarsiNegar.exe_1]" Description="FarsiNegar.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Bin_Release_Dir"/>
+    <ROW Shortcut="FarsiNegar.exe_3" Directory_="DesktopFolder" Name="SHETAB~1|Shetab Farsi Negar 5" Component_="FarsiNegar.exe_1" Target="[#FarsiNegar.exe_1]" Description="FarsiNegar.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="Bin_Release_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

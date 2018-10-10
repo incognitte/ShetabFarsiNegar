@@ -1,0 +1,6 @@
+; GlypherDLL.def : Declares the module parameters for the DLL.
+
+EXPORTS
+    StartMonitor
+    StopMonitor
+    IsMonitorStarted
