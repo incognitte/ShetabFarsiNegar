@@ -2,4 +2,4 @@
 
 ![Main Window Snapshot](Readme/snapshot.gif)
 
-![Dpwnload] (releases)
+![Dpwnload](releases)
