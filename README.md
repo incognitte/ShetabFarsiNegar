@@ -2,4 +2,4 @@
 
 ![Main Window Snapshot](Readme/snapshot.gif)
 
-
+[Download Shetab Farsi Negar 5](https://github.com/madnik7/ShetabFarsiNegar/releases)
