@@ -34,38 +34,38 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
     <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
-    <ROW Directory="AdverPools_1_Dir" Directory_Parent="Bin_Release_Dir" DefaultDir="ADVERP~1|AdverPools"/>
+    <ROW Directory="AdverPools_Dir" Directory_Parent="APPDIR" DefaultDir="ADVERP~1|AdverPools"/>
     <ROW Directory="Bin_Release_Dir" Directory_Parent="APPDIR" DefaultDir="BIN_RE~1|Bin_Release"/>
     <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
-    <ROW Directory="EbookCreator_Files_1_Dir" Directory_Parent="Sponser_1_Dir" DefaultDir="EBOOKC~1|EbookCreator_Files"/>
+    <ROW Directory="EbookCreator_Files_Dir" Directory_Parent="Sponser_Dir" DefaultDir="EBOOKC~1|EbookCreator_Files"/>
     <ROW Directory="Fontmaps_Dir" Directory_Parent="APPDIR" DefaultDir="Fontmaps"/>
     <ROW Directory="Fonts_Dir" Directory_Parent="APPDIR" DefaultDir="Fonts"/>
-    <ROW Directory="Images_1_Dir" Directory_Parent="Shetab_1_Dir" DefaultDir="Images"/>
+    <ROW Directory="Images_Dir" Directory_Parent="Shetab_Dir" DefaultDir="Images"/>
     <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
-    <ROW Directory="Shetab_1_Dir" Directory_Parent="AdverPools_1_Dir" DefaultDir="Shetab"/>
-    <ROW Directory="Sponser_1_Dir" Directory_Parent="AdverPools_1_Dir" DefaultDir="Sponser"/>
+    <ROW Directory="Shetab_Dir" Directory_Parent="AdverPools_Dir" DefaultDir="Shetab"/>
+    <ROW Directory="Sponser_Dir" Directory_Parent="AdverPools_Dir" DefaultDir="Sponser"/>
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
-    <ROW Component="Banner.html_1" ComponentId="{BC99A9EE-DB94-48D1-B309-E44794A4EF2B}" Directory_="Shetab_1_Dir" Attributes="0" KeyPath="Banner.html_1" Type="0"/>
+    <ROW Component="Banner.html" ComponentId="{404D2568-9163-4611-9754-653EBAFF2C7A}" Directory_="Shetab_Dir" Attributes="0" KeyPath="Banner.html" Type="0"/>
     <ROW Component="Config.xml" ComponentId="{8CA30C42-EC7B-4AD5-A715-C98376B6A97A}" Directory_="APPDIR" Attributes="0" KeyPath="Config.xml" Type="0"/>
-    <ROW Component="EbookCreator.html_1" ComponentId="{2C71184F-873A-4E8B-9829-3672023B9F51}" Directory_="Sponser_1_Dir" Attributes="0" KeyPath="EbookCreator.html_1" Type="0"/>
+    <ROW Component="EbookCreator.html" ComponentId="{94D6ECFB-AA60-4C26-8F12-E86B826A26A8}" Directory_="Sponser_Dir" Attributes="0" KeyPath="EbookCreator.html" Type="0"/>
     <ROW Component="F_NAZANI.TTF" ComponentId="{A960FA09-6B3D-470F-879F-39C507DDA18D}" Directory_="Fonts_Dir" Attributes="0" Type="0"/>
     <ROW Component="FarsiNegar.exe_1" ComponentId="{674376AF-20B5-45FE-AE39-DD9721BE72C7}" Directory_="Bin_Release_Dir" Attributes="0" KeyPath="FarsiNegar.exe_1"/>
     <ROW Component="IPT.fontmap" ComponentId="{DD74C05F-9717-4540-9673-AFAAA4EE5DA8}" Directory_="Fontmaps_Dir" Attributes="0" KeyPath="IPT.fontmap" Type="0"/>
-    <ROW Component="LeftBannerTile.jpg_1" ComponentId="{F239C4E4-8C71-4A33-A4E1-A78E42766984}" Directory_="EbookCreator_Files_1_Dir" Attributes="0" KeyPath="LeftBannerTile.jpg_1" Type="0"/>
-    <ROW Component="LeftTileTopBaner.jpg_1" ComponentId="{D3122967-05E1-4D25-B6CC-316E20E7918E}" Directory_="Images_1_Dir" Attributes="0" KeyPath="LeftTileTopBaner.jpg_1" Type="0"/>
+    <ROW Component="LeftBannerTile.jpg" ComponentId="{435104D1-BBAD-42DA-AA8C-08CC822E0CF5}" Directory_="EbookCreator_Files_Dir" Attributes="0" KeyPath="LeftBannerTile.jpg" Type="0"/>
+    <ROW Component="LeftTileTopBaner.jpg" ComponentId="{4AFD875F-A0FA-4410-A22B-24B89E3B5BA5}" Directory_="Images_Dir" Attributes="0" KeyPath="LeftTileTopBaner.jpg" Type="0"/>
     <ROW Component="ProductInformation" ComponentId="{0D5556F3-11D1-494F-82ED-E0758C62F651}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
     <ROW Component="SHORTCUTDIR" ComponentId="{86534F3D-AF68-4536-AE82-E7312E2E62BF}" Directory_="SHORTCUTDIR" Attributes="0"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
-    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Banner.html_1 Config.xml EbookCreator.html_1 F_NAZANI.TTF FarsiNegar.exe_1 IPT.fontmap LeftBannerTile.jpg_1 LeftTileTopBaner.jpg_1 ProductInformation SHORTCUTDIR"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Banner.html Config.xml EbookCreator.html F_NAZANI.TTF FarsiNegar.exe_1 IPT.fontmap LeftBannerTile.jpg LeftTileTopBaner.jpg ProductInformation SHORTCUTDIR"/>
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
-    <ROW File="Banner.html_1" Component_="Banner.html_1" FileName="BANNER~1.HTM|Banner.html" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Banner.html" SelfReg="false" NextFile="LeftTileTopBaner.jpg_1"/>
+    <ROW File="Banner.html" Component_="Banner.html" FileName="BANNER~1.HTM|Banner.html" Attributes="0" SourcePath="..\Bin\AdverPools\Shetab\Banner.html" SelfReg="false" NextFile="LeftTileTopBaner.jpg"/>
     <ROW File="Config.xml" Component_="Config.xml" FileName="Config.xml" Attributes="0" SourcePath="..\Bin\Config.xml" SelfReg="false" NextFile="IPT.fontmap"/>
-    <ROW File="EbookCreator.html_1" Component_="EbookCreator.html_1" FileName="EBOOKC~1.HTM|EbookCreator.html" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator.html" SelfReg="false" NextFile="LeftBannerTile.jpg_1"/>
+    <ROW File="EbookCreator.html" Component_="EbookCreator.html" FileName="EBOOKC~1.HTM|EbookCreator.html" Attributes="0" SourcePath="..\Bin\AdverPools\Sponser\EbookCreator.html" SelfReg="false" NextFile="LeftBannerTile.jpg"/>
     <ROW File="F_NAZANI.TTF" Component_="F_NAZANI.TTF" FileName="F_NAZANI.TTF" Attributes="0" SourcePath="..\Bin\Fonts\F_NAZANI.TTF" SelfReg="false" NextFile="F_ZAR.TTF"/>
     <ROW File="F_ZAR.TTF" Component_="F_NAZANI.TTF" FileName="F_ZAR.TTF" Attributes="0" SourcePath="..\Bin\Fonts\F_ZAR.TTF" SelfReg="false" NextFile="HMSNazanin.ttf"/>
     <ROW File="FarsiNegar.exe_1" Component_="FarsiNegar.exe_1" FileName="FARSIN~1.EXE|FarsiNegar.exe" Attributes="0" SourcePath="..\Bin\Bin_Release\FarsiNegar.exe" SelfReg="false" NextFile="Config.xml" DigSign="true"/>
@@ -73,20 +73,20 @@
     <ROW File="HMSNazanin.ttf" Component_="F_NAZANI.TTF" FileName="HMSNAZ~1.TTF|HMSNazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\HMSNazanin.ttf" SelfReg="false" NextFile="INazanin.ttf"/>
     <ROW File="INazanin.ttf" Component_="F_NAZANI.TTF" FileName="INazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\INazanin.ttf" SelfReg="false" NextFile="Nnazanb.ttf"/>
     <ROW File="IPT.fontmap" Component_="IPT.fontmap" FileName="IPT~1.FON|IPT.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\IPT.fontmap" SelfReg="false" NextFile="maryam3.fontmap"/>
-    <ROW File="LeftBannerTile.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBA~1.JPG|LeftBannerTile.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile.jpg" SelfReg="false" NextFile="LeftBannerTile2.jpg_1"/>
-    <ROW File="LeftBannerTile2.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBA~2.JPG|LeftBannerTile2.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile2.jpg" SelfReg="false" NextFile="LeftBottomBanner.jpg_1"/>
-    <ROW File="LeftBottomBanner.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTBO~1.JPG|LeftBottomBanner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftBottomBanner.jpg" SelfReg="false" NextFile="LeftTopBanner.jpg_1"/>
-    <ROW File="LeftTileTopBaner.jpg_1" Component_="LeftTileTopBaner.jpg_1" FileName="LEFTTI~1.JPG|LeftTileTopBaner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Images\LeftTileTopBaner.jpg" SelfReg="false" NextFile="TopBaner.jpg_1"/>
-    <ROW File="LeftTopBanner.jpg_1" Component_="LeftBannerTile.jpg_1" FileName="LEFTTO~1.JPG|LeftTopBanner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Sponser\EbookCreator_Files\LeftTopBanner.jpg" SelfReg="false" NextFile="FarsiNegar.exe_1"/>
+    <ROW File="LeftBannerTile.jpg" Component_="LeftBannerTile.jpg" FileName="LEFTBA~1.JPG|LeftBannerTile.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile.jpg" SelfReg="false" NextFile="LeftBannerTile2.jpg"/>
+    <ROW File="LeftBannerTile2.jpg" Component_="LeftBannerTile.jpg" FileName="LEFTBA~2.JPG|LeftBannerTile2.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Sponser\EbookCreator_Files\LeftBannerTile2.jpg" SelfReg="false" NextFile="LeftBottomBanner.jpg"/>
+    <ROW File="LeftBottomBanner.jpg" Component_="LeftBannerTile.jpg" FileName="LEFTBO~1.JPG|LeftBottomBanner.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Sponser\EbookCreator_Files\LeftBottomBanner.jpg" SelfReg="false" NextFile="LeftTopBanner.jpg"/>
+    <ROW File="LeftTileTopBaner.jpg" Component_="LeftTileTopBaner.jpg" FileName="LEFTTI~1.JPG|LeftTileTopBaner.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Shetab\Images\LeftTileTopBaner.jpg" SelfReg="false" NextFile="TopBaner.jpg"/>
+    <ROW File="LeftTopBanner.jpg" Component_="LeftBannerTile.jpg" FileName="LEFTTO~1.JPG|LeftTopBanner.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Sponser\EbookCreator_Files\LeftTopBanner.jpg" SelfReg="false"/>
     <ROW File="N04n.ttf" Component_="F_NAZANI.TTF" FileName="N04n.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N04n.ttf" SelfReg="false" NextFile="NPINazanin.ttf"/>
     <ROW File="NPINazanin.ttf" Component_="F_NAZANI.TTF" FileName="NPINAZ~1.TTF|NPINazanin.ttf" Attributes="0" SourcePath="..\Bin\Fonts\NPINazanin.ttf" SelfReg="false" NextFile="Npwlnazn.ttf"/>
     <ROW File="Nnazanb.ttf" Component_="F_NAZANI.TTF" FileName="N-nazanb.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N-nazanb.ttf" SelfReg="false" NextFile="Nziba.ttf"/>
     <ROW File="Npwlnazn.ttf" Component_="F_NAZANI.TTF" FileName="Npwlnazn.ttf" Attributes="0" SourcePath="..\Bin\Fonts\Npwlnazn.ttf" SelfReg="false" NextFile="PWLZIBA_.TTF"/>
     <ROW File="Nziba.ttf" Component_="F_NAZANI.TTF" FileName="N-ziba.ttf" Attributes="0" SourcePath="..\Bin\Fonts\N-ziba.ttf" SelfReg="false" NextFile="N04n.ttf"/>
     <ROW File="PWLZIBA_.TTF" Component_="F_NAZANI.TTF" FileName="PWLZIBA_.TTF" Attributes="0" SourcePath="..\Bin\Fonts\PWLZIBA_.TTF" SelfReg="false" NextFile="UnicodeGlyphs.xml"/>
-    <ROW File="TopBaner.jpg_1" Component_="LeftTileTopBaner.jpg_1" FileName="TopBaner.jpg" Attributes="0" SourcePath="..\Bin\Bin_Release\AdverPools\Shetab\Images\TopBaner.jpg" SelfReg="false" NextFile="EbookCreator.html_1"/>
+    <ROW File="TopBaner.jpg" Component_="LeftTileTopBaner.jpg" FileName="TopBaner.jpg" Attributes="0" SourcePath="..\Bin\AdverPools\Shetab\Images\TopBaner.jpg" SelfReg="false" NextFile="EbookCreator.html"/>
     <ROW File="UnicodeGlyphs.xml" Component_="Config.xml" FileName="UNICOD~1.XML|UnicodeGlyphs.xml" Attributes="0" SourcePath="..\Bin\UnicodeGlyphs.xml" SelfReg="false" NextFile="UnicodeGlyphsSorter.xslt"/>
-    <ROW File="UnicodeGlyphsSorter.xslt" Component_="Config.xml" FileName="UNICOD~1.XSL|UnicodeGlyphsSorter.xslt" Attributes="0" SourcePath="..\Bin\UnicodeGlyphsSorter.xslt" SelfReg="false"/>
+    <ROW File="UnicodeGlyphsSorter.xslt" Component_="Config.xml" FileName="UNICOD~1.XSL|UnicodeGlyphsSorter.xslt" Attributes="0" SourcePath="..\Bin\UnicodeGlyphsSorter.xslt" SelfReg="false" NextFile="Banner.html"/>
     <ROW File="maryam3.fontmap" Component_="IPT.fontmap" FileName="MARYAM~1.FON|maryam3.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\maryam3.fontmap" SelfReg="false" NextFile="maryam4.fontmap"/>
     <ROW File="maryam4.fontmap" Component_="IPT.fontmap" FileName="MARYAM~2.FON|maryam4.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\maryam4.fontmap" SelfReg="false" NextFile="nevise.fontmap"/>
     <ROW File="nevise.fontmap" Component_="IPT.fontmap" FileName="NEVISE~1.FON|nevise.fontmap" Attributes="0" SourcePath="..\Bin\Fontmaps\nevise.fontmap" SelfReg="false" NextFile="parwin2000.fontmap"/>
@@ -101,7 +101,7 @@
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
-    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Output" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Output" PackageFileName="ShetabFarsiNegar5" Languages="en" InstallationType="4" UseLargeSchema="true"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
     <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
