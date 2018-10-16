@@ -258,15 +258,8 @@ Path CGlypherApp::GetPath(CGlypherApp::PathEnum path)
 	case pathSortXsdFile:
 		return appFolder + Path(L"FontMapSorter.xslt");
 
-	case pathAdverShetabUrl:
-		{
-		CString fileVersion = m::File::GetVersionAsString( m::GetModuleFileName() );
-		CString url = L"http://adver.shetab.com/FarsiNegar/adver.aspx?LanguageId=%1&FileVersion=%2PoolName={PoolName}";
-		url = L"http://www.google.com";
-		url.Replace(L"%1", Convert::ToString(GetAppOptions()->m_wLangId));
-		url.Replace(L"%2", fileVersion);
-		return Path(url);
-		}
+	case pathAdverUrl:
+		return Path(L"http://adver.shetab.com/farsinegar/{PoolName}.html");
 
 	case pathAdverLocalFolder:
 		return appFolder + Path(L"AdverPools");

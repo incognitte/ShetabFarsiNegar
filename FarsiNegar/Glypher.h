@@ -52,7 +52,7 @@ public:
 		pathFileConvertorFile,
 		pathSortXsdFile,
 		pathAdverLocalFolder,
-		pathAdverShetabUrl,
+		pathAdverUrl,
 	};
 
 

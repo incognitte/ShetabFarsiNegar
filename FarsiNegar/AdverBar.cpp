@@ -174,7 +174,7 @@ void AdverBar::UpdateAdvers()
 	//try to connect to site time to timw if current html is not adver or it is localsite
 	if (local || !IsAdver())
 	{
-		CString url = theApp.GetPath(CGlypherApp::pathAdverShetabUrl);
+		CString url = theApp.GetPath(CGlypherApp::pathAdverUrl);
 		url.Replace(L"{PoolName}", PoolNameField);
 		Web.Navigate(url, 0,0,0,0);
 	}

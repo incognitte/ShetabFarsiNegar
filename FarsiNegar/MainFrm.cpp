@@ -82,8 +82,8 @@ static UINT indicators[] =
 CMainFrame::CMainFrame()
 	: m_bIsTrayIcon(false)
 	, m_hAIModule(NULL)
-	, AdverBarField(this, L"Sponser")
-	, AdverBar2Field(this, L"Shetab")
+	, AdverBarField(this, L"side")
+	, AdverBar2Field(this, L"top")
 {
 	m_hIcon = GetApp()->LoadIcon(IDR_MAINFRAME);
 }
